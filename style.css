@@ -1,0 +1,297 @@
+html *{
+    box-sizing: border-box;
+}
+.bodyr{
+    background: url(15.jpg) no-repeat fixed ;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.bodyl{
+    background: url(15.jpg) no-repeat fixed ;
+    
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.box{
+    width: 100%;
+    height: 81%;
+    
+    background-image: url(15.jpg);
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+.nothing{
+   height: 430px;
+   width: 560px;
+   top:240px;
+   
+   z-index: 4;
+   position: relative;
+}
+.main2{
+    height: 800px;
+    
+    
+}
+
+header{
+    height: 120px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+.logo{
+    left: 120px;
+    top: 24px;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+.first,.second,.third,.fourth,.fifth{
+    color: rgb(0, 104, 107);
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt', cursive;
+    padding: 1px;
+}
+
+
+
+
+.imgl{
+    left: 40px;
+    top: 40px;
+    width: 80px;
+    height: 70px;
+    
+}
+.mainnav{
+    text-align: right;
+    
+}
+.mainul, .ulbar{
+    
+    list-style: none;
+    
+}
+.mainli{
+    
+    padding: 15px 15px 0px 15px;
+    display: inline-flex;
+    right: 30px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+   
+    
+    margin: 3px;
+}
+.maina{
+    text-decoration: none;
+    color: rgb(255, 0, 98);
+    
+    padding: 0;
+    margin: 0;
+}
+.mainli::after{
+    content:'';
+    display: flex;
+    height: 2.8px;
+    width: 0px;
+    background: rgb(255, 0, 98);
+    transition: all 0.1s;
+    top: 15px;
+    right: 0px;
+    position: relative;
+    
+}
+.mainli :hover{
+   
+    position: relative;
+    transition: all 0.5s;
+    color: rgba(240, 248, 255, 0.911);
+}
+.mainli:hover::after{
+    content:'';
+    display: flex;
+    height: 1px;
+    width: 20px;
+    background: aliceblue;
+    transition: .7s;
+    
+}
+
+.hr{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Lemonada', cursive;
+    text-shadow: 10px 20px 33px rgba(0, 0, 0, 0.842);
+    
+}
+.hl{
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Lemonada', cursive;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    mix-blend-mode: overlay;
+    top: 150px;
+    position: relative;
+    
+}
+
+h2,h3{
+    text-shadow: 10px 20px 33px rgba(0, 0, 0, 0.842);
+    text-align: right;
+    right: 50px;
+    position:  inherit;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
+h4{
+    text-shadow: 10px 20px 33px rgba(0, 0, 0, 0.842);
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    position:  inherit;
+    font-weight: 900;
+    font-size: 30px;
+    bottom: 20px;
+}
+span{
+    
+    right: 50px;
+    position: relative;
+}
+.thirdp{
+    
+    background: url(5959af942011957.jpg) no-repeat ;
+    background-size: 100% 100%;
+    
+}
+p{
+    
+    text-align: center;
+    right: 50px;
+    position: relative;
+    width: 600px;
+    font-size: 15px;
+    line-height: -2px;
+    font-family: 'Lemonada', cursive;
+    
+}
+.p2{
+    
+    text-align: center;
+    left: 50px;
+    position: relative;
+    width: 600px;
+    font-size: 15px;
+    line-height: -4px;
+    font-family: 'Lemonada', cursive;
+}
+.p3{
+    
+    text-align: center;
+    bottom: 26px;
+    position: relative;
+    width: 600px;
+    font-size: 15px;
+    line-height: -4px;
+    font-family: 'Lemonada', cursive;
+}
+.imgo{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    
+}
+.imga{
+    width: 320px;
+    height: 230px;
+    top: 40px;
+    right: 160px;
+    position: relative;
+    
+    
+    
+}
+article{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.article1{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.article2{
+    
+    display: flex;
+    justify-content: center;
+}
+footer{
+    bottom: 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    position: relative;
+    width: 100%;
+    
+}
+
+    
+aside{
+    
+    
+    width:110 px;
+    height: 210px;
+    left: 0;
+    top: 47%;
+    z-index: 10000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.imgt{
+    width: 28;
+    height: 30px;
+}
+.libar :hover{
+    left: 3px;
+    transition: 0.5s;
+    position: relative;
+}
+.libar{
+    padding-bottom: 4px;
+    margin: 0;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+.ulbar{
+    padding: 0;
+    margin: 0;
+}
